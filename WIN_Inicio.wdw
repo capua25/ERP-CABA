@@ -147,7 +147,7 @@ window :
         type_code : 4
         p_codes :
          -
-           code : |1+
+           code : |1-
             OpenOrEnablePane(IW_Clientes, "Clientes")
            type : 18
          -
@@ -197,9 +197,10 @@ window :
        internal_properties : HgAAAB4AAABW5UqIdXtJ1T1zFGcrhKB2bc3eVK+7WA6yJUbOqUympwK1HyD9Um7nN1ASuLHT1us29Mo4+V6ZmSu9WzyOr56A1WGT9ZbaNw16hEjFqAXNF4+pj1Uk7QwL3KWVbK80Rbs5Szyo4raegcNLtlpY3Kia6/IpPFq3PoPo67tWlFpWMGz3PmTpjw4zl+neQP0r6ktLbF1ryq3U2MnqAbG1Dqpfyb7ShL61GEK7oRM+F/rzHIlvpZZhuAW7gUzyFnNv3kuaTVccIU7iNOL9MJoiLt1m1w2l8W72F3Bmk9ZdlNgHOcTjZdVOFAhWorrm+cXayDoF7IJS8ENsWnY05RUufdzsPrS32cv/wDt4fAuPr1yaX2fQfOvlaKj8aUobSpL4GOwibeosmvMiJ8tCblLG90tF7WZfUee/vihKzZkqrNF+J9typRQz55qPor2a1GnYMAcUM+LypYpi6ecEOOs5QTsY9IqVxQXHODttzd4V+sAnEuvfEe+bIeK+Klw5pcZ11X+nFN0gQxJ+F3H2JxMgn0AnaoGB8FhQeL2GT3O3jV5EFcqdYxf9Bti61LPyXEd5AA4SwOCD4c5kjYeDG+12FLZYq9CM/McUmsBAL7FHDoi3iLXs8T4WuWt09cQLkH09WpFBCu5fSxGNXaIKoDE4larZqkQ8VvLWN9m6fQk5Cj6m5gMyKndAr+6kKOeHqZ5Y5Q99Pt5FCbprDJ1v+I1/zkDCYz5Gnih6ykO1vFSugTqMS6qUessXIbIqYCqP/RKrtxPoO1gzl35C+BemBUjYuvaKF0WLxTANQ9ANKQ0pzxIJr7Cwb2GFw1nc
        properties :
         x : 6
-        y : 648
+        y : 628
         width : 238
         height : 24
+        anchor : 1
         accelerator_key : 65535
         tab_order : 3
        style : {}
