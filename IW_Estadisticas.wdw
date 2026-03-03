@@ -72,6 +72,28 @@ window :
          -
            type : 33
            enabled : false
+     -
+       name : IWC_SinNombre1
+       identifier : 0x29a720fe01bbf6ee
+       internal_properties : HgAAAB4AAACZfqX5m46FSovBHFATj0G4uRHGZzbNxd/RsnSxOYsird8SJc8f4CZmEBuJzfMMWSlU2nbEoA9VLwOpJsy3EVSODhvUUXC2iTIQN/OvcRTQZZCLOOWOag7LBt/3wKpVYhoPzSsrP8Kx2dELvbvkmSvOBeZCaiykJBHZz8pnPFO0WuKRqB/I63tu4RzwCAeIwFtgqhGxEeXaDu4/+DrZKSDFNgoFaPf6OZkmvnUgtOqy3dF0iSxZc92UpXbqIDIQTzerT0kTdDIRdcc4JBbVvU0NjstUxjsc2LT764hxyHHmNEQ4aXSkW6hSsQk6Bsk8GtyMoTHc00rQjE4w6MRvrVIp1p2Dc/UfCcbcYbZufWd8Rr8Afm0jY+xmYjOyMd9bUPwE6xLtrxIlo4sRWfsUa7voL6+7zSogfex3aYPznd9/MaS5rcqGadvMW/M=
+       properties :
+        x : 6
+        y : 319
+        width : 988
+        height : 314
+        anchor : 11
+        anchor_ratio_pos_y : 500
+        anchor_ratio_size_y : 500
+        tab_order : 2
+       style : {}
+       controls : []
+       type : 31
+       code_elements :
+        type_code : 73
+        p_codes :
+         -
+           type : 33
+           enabled : false
     type : 32
     code_elements :
      type_code : 70
