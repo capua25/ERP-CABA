@@ -170,12 +170,16 @@ window :
         type_code : 4
         p_codes :
          -
+           code : |1+
+            OpenOrEnablePane(IW_Facturacion, "Facturación")
+           type : 18
+         -
            type : 161
            enabled : false
      -
-       name : BTN_Clientes2
+       name : BTN_Estadisticas
        identifier : 0x29a5efe40be84552
-       internal_properties : HgAAAB4AAACJVocidWCj63tasO5VM2RsysdjoQOz1P2Paw54eVb68p4TJfKkWNP7UBxYXHul7EXR+6ifoSVIArOrot8EcKPLS4E6NuJr6QY9GpxreNFIr4x9mYUDePXhcviTa3tL+WUC/PbI1sdkf2jIixoH4ir9+s5fU098ZVLNN/8I9BiEQzbDEJaJalpxjtS9zpZuTCVn5kDBaU8dcB7HzvkVn4+9JK35OG2GFKAMinOIKsLnQmAWC9Y/MLfa8+hAQwCt+oWg758Jnb2IrXYEUz/eLA5MkkMiqUm4M1i51EbvH7BETeurtyAh1sgu7OVkIHFAMqI9R27qpLSSg97FblHVgVBFkoC8YcXfe1uYrBQ+J910Mz6PaBky6FLfcwide1be+Sdshsd06mmdY6ccT6jNBLYOWxqRI4XD4/D9E0UCLgTPwzMzM3xgeOpOf1EUttsrAnMMrH4fRja4lBcngFzQBKWc3BsRRW5vGgJ5adDWU2Q5b5KWxS3cK2dGfHh6hCTzOPmX7Zk7C78/x2CveVW/vbmpgg99mEoyCpRRNev00JIPc7P4IJg61R4LaiElG7lP1jP8pTnrbz1mwv14MABC9DDygowgZwce3t4SoFNxNVrFkmGaBt9j8dVx/iBF0XK8eTCmQDH2ewSoBs3XuppwqpRBdIBzmc89uF4x2yVOW9LNEJ2Kbvc9IEj8rZhSjx0XcYvJP8fA/QHyWPySDh6yVbW3229X4NBCdHfoBkw7ntTTgxNDRFx99OcmlGJ6MbKaAG4XAHuFL68hDEzc/yFc7boPcIS4wBSQFDxj2w==
+       internal_properties : HgAAAB4AAAD+0Rd/R1dF6f6fHlel7JXRumoZV6GTY15R/BL3/u0NcbTCyffGQ8ZxN4olPqA4ACXl6mjhXK43qE++ivr+CszKdZAOWPe9p8iRtmWxWk3N49XmzXr1hlwqB/qpfVpte0tIgTWX21j7kvwbeuOGddiQ7zGj1ZbolwvKK9Q201sKzgJueNJ5GlaTMcephwpA40Tg+6UpB3UEPVFJrXQWGwP9yP6NgSbrv3ewJ3l+jugL1h7ycuG3PM6HzmdbhzyVMbXq45IOVRvfWBnJXd4mwjiGHIAzrSepBbruMuDSy9/2Wwheb74AvTerxzDsM3AuM42ne84Vrk4F/2IItBuwdgPbh624gDYz5n3nj1M/30SN7YNyTlQpmv0yMbgfXWhJpPryjRfhekGwSkbksa72zNmcoTVv4y3M7zvKHaQoLcE/mCWlV1jROMdKxuFTCkAEH6Tc3BZkVQ8LxD2aQbN0d7LJQD+JS+EsDcwvr8tfkTTyyee833sHfkvV4DJ+gUUlYtZFQZMAQzcrsmfs6JvNyw/ALiTb+KwxQYSWr6ihijSfjsK+U2kJTw0RoK/1whBFjf2AFcIf6/ftdNdTIBchcDsRFWPqtM0jwefotxYht+KMIYMbx5J6YrgPjYxIqoBjt0A9tfwbfSZ2ZNb+75PPlX3g9i9W9s43sGpgYwBJ9/rrWQGRLp24njlTCCewcTGOnHZ9Hdwx2y32h5UnD62qAseTz8F2WLj/83Y1lEzBrABaF5DAwuR+ozAioof5PaNYDe5F85hkXX+05JmIHmHmNQpPgIsFzZYtxzsY1MOCu05sdD6JbU25
        properties :
         x : 6
         y : 92
@@ -188,6 +192,10 @@ window :
        code_elements :
         type_code : 4
         p_codes :
+         -
+           code : |1+
+            OpenOrEnablePane(IW_Estadisticas, "Estadísticas")
+           type : 18
          -
            type : 161
            enabled : false
@@ -208,6 +216,10 @@ window :
        code_elements :
         type_code : 4
         p_codes :
+         -
+           code : |1-
+            Open(WIN_Configuración)
+           type : 18
          -
            type : 161
            enabled : false

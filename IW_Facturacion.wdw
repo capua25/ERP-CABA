@@ -1,0 +1,91 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_Facturacion
+ major_version : 30
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_Facturacion
+ identifier : 0x29a6d5640186a51f
+ internal_properties : HgAAAB4AAADfI0sIwuIidbuZ6vrUYGmb6P3mBtlgMDGQbhfh6Ac77eBq/1HoRlbICzWA21UFfI8c1X7dVsv3lf+jRUii6UC0aFGPYVwZB35/L683JvBgS999PJdjN2Ce5siceQxsr7mE8SLa++bXN56yhw4VfbbhhyzYGc18k6cfHwXcA2LKYoEfNOEZorsbTasdPtifunWsnS+KVp5/dyLhxvdumn5VkqXJ3qOX0mci8CoX2F4N7nXo78lBMFhEZ3OCk3Fu49WaB/BdM3thX3rbjCaX/L0CGuaOZNCkIetbJslBk0qyzCXMG574ntOHNXb/yibVDkejRmKmbSCj4X18wH5EUXWtNEcxxbOQA5rKpsZ9wAVI8zuKDTDXGHHgQwNMpdx6C2Qg5Sl396Fkn8gNeP+3vwD7jK3KgcHHeB+Z72deC04W1QTPjAc+Ds1O1rNUPf0ar7qXWAlthvP4gK5BqOC5jZw2F52RfxIgv7jKzZ2PSfw0Gfjj6xSXTRbjQnGsMLDn1aFct/QQzVEjr+zsKtOp8Y6XdqEbD7488B/P6of1rkWUAkFyjjzcbre121aFVPnF0nZ9OFb6vdX77xNPtUFcLJ86AYHdZ0UOSpH74BMxq2GG1hifAQS6rilKhHH3Ed1i1VFeMkNP4w9IziVuc9Tmt2ufaxZAsL7w6al3VXFiwqqkSkYO6FYBan/9FfVgdlCRxwjFNJ6OcI8CXItqUJpUuC3XaPGK1eN7qnYOuUxoY88qiAkZTuXIllgcBkh02nQPj51IYHdZwm4TOkEywKfM6BSdjN6MKhMrL6X6w1k5aYjwMw==
+ properties :
+  width : 1000
+  height : 640
+  widthMin : 640
+  heightMin : 480
+ style : {}
+ controls :
+  -
+    name : IW_Facturacion
+    identifier : 0x29a6d5640187a51f
+    internal_properties : HgAAAB4AAADCJxROmheiz/QplShxvbyWGLTBd4kc47lmm3RGV7Budo3wt3DQtNb1uUZoTdgeGAFildrFT8kHMDap/sws3kAMhjUKOceeN6Utjs5ylXtpL0gcVWf8jzduM6n4hiuzkF1fcE7zlo7jwqb+s5j6C6X8A0nQLCdWW51teIjQARvd+Kya46LTyu6AYZ7unPgkZY48/ZduwCMQUSdlmprd+A7gbvl3LYTXGy8w7ezmkqqyC4dcahGcPWRATOIWmvVWtik0XodITPXU59SsN1RFQFecu8xCT9YHsMjuLfrEBcYfTNBucjTZuWGI4EgIPKYm8DPb4SQZTOA+aPcuhXTW5n5oYbrwuIQAsBOHJKZmZnS/u/+4sbC9wIsHhZbKMLfgXxZta63w49IWwpcOj6TVkeYQoPgWAe0wyhXSzhta/44abRObOtNjweYBKAt3Ujsa/XawcX1T4w==
+    properties :
+     width : 1000
+     height : 640
+     tab_order : 0
+    style : {}
+    controls : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MyWindow()
+      -
+        code : |1+
+         
+         
+        type : 14
+      -
+        code : |1+
+         
+         
+        type : 234
+      -
+        code : |1+
+         
+         
+        type : 43
+      -
+        code : |1+
+         
+         
+        type : 42
+      -
+        code : |1+
+         
+         
+        type : 2
+      -
+        code : |1+
+         
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x29a6d55f017b91c6
+  internal_properties : HgAAAB4AAAAyZPXhTiJoeVDZelCKS2cOykBZJd+V0vcT1LH4zwAHnLjd0nSsJv9mG5v6BiS7z/c/AhobAUGPre/b09bF8gZlflJuq9ykl9rg9kwiOUxr1oG7t0ecsEJRg8/G/wjTxMHrvrvgekM9ouqNRkB3dY+njGEuZZ1JIwqMaLvOVdP2XCAFsoBpwitPmoguJ6J3A6w+UZQECavMIvGZ54j4UnTgqxlVKafhoTjClfpIiQCOLZPwF04ZaZ45w9jcU5venQ/pfb+NqmKGPKaLK0JuejbZho6YWzHWvrBa
+  properties : {}
+  style : {}
+  options : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : HgAAAB4AAADXPUOq6bQdTI/fs1mC0I6nimWl2G84EsAbne5i32IM05uoRA==
+  original_name : IW_SinNombre1
+resources :
+ string_res :
+  identifier : 0x19a6d55f001191c6
+  internal_properties : HgAAAB4AAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

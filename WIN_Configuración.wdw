@@ -1,0 +1,81 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Configuración
+ major_version : 30
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Configuración
+ identifier : 0x29a6d5ac01bcbf1b
+ internal_properties : HgAAAB4AAADiETNVY6KspmvONLsdq5HrcOY8GOjajmKfvcnF7wrhkpBE2Vi9Y5XZ2UW0QKBLX+LQ1p358yohNGu8gmY2ngKfdPyd66tM+iqn9Sh2G55lvmQofxP8iZidMugX65RFaMfye1dSWeCsCLMnt2646duGfL3rNy0DB4BnUGY1Mot8+bADTzWYuhSYxNMB3Me0jRIg2smKI6j2trWVpFqDtsj0Cezqv0SKhj/mlWlHF5UyqriOzvLIiOnFMlrwLZCRsK/GSZpVoG+6jVOrWuielGJkwWU7OHT7l0iG/jJOxSjYIQOd/ipL+ylKrUw1uNzXrncJRx0hJeWvikWqDsoN/BFnxWiyofBy9j11OCQITwI0CQyWqclqUN3aaYFA+suAERts5cbVXM+8Ry0j2/QuPgJFCjTtu7VpBCatxnrYbELAt0ozF/P3k6kOVz68kGDP/9DTp//nB5G4durxvM6FGbnj+XwwsDswcdh3cm4HXAS6NkHg7MGm+tYT5IJ18ThDYGsmnOIQ+UMiC9jttjYlLe5JlCPv7yOYkBgasWODvAqHlnPQNEZiGA/OnCcNP2Rk/k+Gpz8921fQzORPbr1QhbinELOgoLoz89iL3moaDVh4QUU8/90v2/f++pO0x49x7G8KcgEeKbxataulmwkaZ6W0T9VTK2Hz6uw6N+enIzG3BRH1qyV70g5NLtpFSJNl+HN5aLX3mQ3SI5ZpZb9S6rOyqMcEoJQOeKe+Cs6sptfvRLr+HBj39p0NiRlj5trmGqlb2eycqTgqQ7Dbve4XEzEeifNn7HcJei5Q1fi0hnw5rOmnv/kGR+Vo
+ properties :
+  width : 1024
+  height : 720
+  widthClient : 1022
+  heightClient : 688
+ style : {}
+ controls : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : HgAAAB4AAADXRhkpwjjoSXbqaP+tqSQvyjGLC1pkHbm9KVBc2OekjxdrFs+/c2BFDR9R40RcH12XSv9hTXdHKu9m1iq+qhwuW8gsOq2KURMyxhVY2tRrfod6BYzhY0/hwm6bLukM+3G/c3p0hTWA/CGPpp2MfUNYOJfVbtjm2xvbcf4Ua36Y5VoRzo8aQex9UnP+3fhnlN+Yx96ZuAy/2633BncvIeD1p/K+s70ZBL9Q8DHF+/anjH9MHAMJjZtHvvY9MobnN79wYqwA+cfZ1SPmt6/kH5KYT8ZgkgumJfNaWRofnNIY
+  properties : {}
+  style : {}
+  options : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar :
+  internal_properties : HgAAAB4AAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : HgAAAB4AAACoLZs0mW4lq5aP9aNErAlUOSHZ7X4ZrJFFT1JWjhhvitD/xL/r2Etbr+oKxbieVf7YoEoO7HUdc4CD59271o8AU+x7o881eemR/sfDJwMvJH35
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x19a6d5a60016a6ef
+  internal_properties : HgAAAB4AAAAEBvz4BdTt90ISSptwDJCphvKgZdUR2e2WGWtmgJlonsrIZP01S5+UbwYBB2sFt7MTEw==
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : HgAAAB4AAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
