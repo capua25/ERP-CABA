@@ -46,6 +46,18 @@ project :
      physical_name : .\IW_Panel_de_control.wdw
      type : 8
    -
+     name : IW_ClientesEstadisticas
+     identifier : 0x49a6f1170107d72e
+     internal_properties : HgAAAB4AAABJxbFVUg8nyJSjFqDnOD2GSRqU1HyNmFyOf0GwlpN7jWNZ24x4SR7vuWpUrHRsFIRM1A==
+     physical_name : .\IW_ClientesEstadisticas.wdw
+     type : 8
+   -
+     name : IW_GraficoFacturacionAnual
+     identifier : 0x49a6ec5f00d66a91
+     internal_properties : HgAAAB4AAAAuNAYaqdZeEd/6OANLTLc06u+5eVEiFilSGhqSZoMR//3RwCq/OcYGgKEb5a0j39E7Ow==
+     physical_name : .\IW_GraficoFacturacionAnual.wdw
+     type : 8
+   -
      name : WIN_Configuración
      identifier : 0x49a6d5ac0073bf1b
      internal_properties : HgAAAB4AAAAAfnikA3gwa3VEh74PrZxygvfhwQkSRaFOzzem8hd9c0mltonlGzGMGgv1w0O9RbsFDQ==
@@ -63,6 +75,12 @@ project :
      internal_properties : HgAAAB4AAAABfXmtGkfvgEwr8pO2GwaxJ7YexvgRpaZS2kCd9SRushLSAV/4CJp3MRKMdDy0TLwEDA==
      physical_name : .\IW_Estadisticas.wdw
      type : 8
+   -
+     name : WIN_FichaCliente
+     identifier : 0x49a6f5d10141508d
+     internal_properties : HgAAAB4AAAAzD2u/jPmx6srFOGTR7JSbrT5YKKABhxlywuEcOv8X6R/djjIYIdANm4x2QsI+Oq4WHg==
+     physical_name : .\WIN_FichaCliente.wdw
+     type : 2
   other_elements : []
   array_of_analysis : []
   net_assemblies : []
@@ -93,6 +111,18 @@ rad :
  internal_properties : HgAAAB4AAABhIL0UXeZmxDJxY3Xy0Q==
 project_explorer :
  explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : PanelEstadisticas
+       explorer_type : custom_folder
+       children :
+        -
+          name : IW_GraficoFacturacionAnual
+          explorer_type : element
+          type : 8
 resources :
  string_res :
   identifier : 0x0

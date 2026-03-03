@@ -1,0 +1,87 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_FichaCliente
+ major_version : 30
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_FichaCliente
+ identifier : 0x29a6f5d10673508d
+ internal_properties : HgAAAB4AAAANtGYHnpgR1aeOIEFHiOPPwsw79yr8pL3zJtPhETHW6L7bwA5RGomAZxUOb+LSBXbZaBL80nnvmifj3WhAa76VAqVicJy8baIW4lQxln3ysR3tSWw1Voegeo/I5qdPox62JVDJ7YWhJKGglMYYxNB/7SCnCM7ewZ0nlRdYcxnT/dcWq/EgBXGowZSCEtF1kO/wA6Hcjoi16CHoHl6u6laEa8vlsMmXVS6NxI3KyOnxhUuhIhFXWZmuqIET1N9ap0pmSFhup/lyPstBNUnYWnhlhsoh0Kr4rhq9yrBD07GucaztkmGZfmJ09Gh94zhP7YmBIpwq6xXekiLy8mkUQlRBhBIencdOa+4Hq1QuggmMn7TQybGgXmDdlqv1HCsbM4ifkC9juOehrro7eR5hfqhcJJ0e3Z8DffBgd13usUs9vwAhLF2tKWjMijN3Yv/CFFphtQJRszmNwMV2D84A6BzT0979xgdAslIal89D7cl1nDlwPZ30ICdvv+cMjTkEua+2fNeaP5lF9WnwhepsdDWZrp18/6dAYZB1hmY5Qxnugsc0ScC8ajIIc8BuTftnD81uH+B7VZn/YFeAXRlFWgmRHtEr8gzVZG74QX3idKsJTRe23AEHv/AigdChrSYsP2N2XnwiG27zR8AoXveTwMbiD15v8B5CgBe6nWU7XYmVas2uy4gnOnoBHptkrWJNPELrqncPwPa8Erdf4kpeoU+BpuiaSXkLa+y5hzEmyok1ndudaXq5aOtIaUyWHhpWqM7yci8Hrs+qYYRlbPR/Q4Mof56PiB5wMPyE9SKQtdRE+0OtCO8=
+ properties :
+  width : 640
+  height : 480
+  widthClient : 638
+  heightClient : 448
+ style : {}
+ controls : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : HgAAAB4AAADXRhkpwjjoSXbqaP+tqSQvyjGLC1pkHbm9KVBc2OekjxdrFs+/c2BFDR9R40RcH12XSv9hTXdHKu9m1iq+qhwuW8gsOq2KURMyxhVY2tRrfod6BYzhY0/hwm6bLukM+3G/c3p0hTWA/CGPpp2MfUNYOJfVbtjm2xvbcf4Ua36Y5VoRzo8aQex9UnP+3fhnlN+Yx96ZuAy/2633BncvIeD1p/K+s70ZBL9Q8DHF+/anjH9MHAMJjZtHvvY9MobnN79wYqwA+cfZ1SPmt6/kH5KYT8ZgkgumJfNaWRofnNIY
+  properties : {}
+  style : {}
+  options : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar :
+  internal_properties : HgAAAB4AAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MyWindow(modificar is boolean = false)
+      MyWindow..ReturnedValue	= Faux
+      si modificar alors
+      	mywindow..Title	= "Modificar Cliente"
+      sinon
+      	MyWindow..Title	= "Crear Cliente"
+      FIN
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : HgAAAB4AAACoLZs0mW4lq5aP9aNErAlUOSHZ7X4ZrJFFT1JWjhhvitD/xL/r2Etbr+oKxbieVf7YoEoO7HUdc4CD59271o8AU+x7o881eemR/sfDJwMvJH35
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x19a6f5c1004511ce
+  internal_properties : HgAAAB4AAAAEBvz4BdTt90ISSptwDJCphvKgZdUR2e2WGWtmgJlonsrIZP01S5+UbwYBB2sFt7MTEw==
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : HgAAAB4AAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

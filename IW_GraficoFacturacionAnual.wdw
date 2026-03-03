@@ -1,0 +1,104 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_GraficoFacturacionAnual
+ major_version : 30
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_GraficoFacturacionAnual
+ identifier : 0x29a6ec5f02e06a91
+ internal_properties : HgAAAB4AAADQMCmowDYQ0FSd3NPNtOf+Abx+NswCh1Clo8CcWIBA/XCOimjN7VmiUZ2HVipoeOaymguxF9j323VHqcdOWV+TkIfy7xmgfS3rLEnuKK8VaQb01A/EU9hDnjuu5DV6aLpM3bBtjIN0pVgeOtJopzNiglLMsV8qh6akn5hBC+KWXk/HutOKGlN4hjVYz7dtdOJM36CZuz4StcVG7KBFPelJRrq+PSlJlA4JXpu2d200YzmGb/bo9v73lUoS68EvyST7lqiXGyZjdHio8vdCihmXcR2yoBWokDT8if0V7j3UIk20ziFwecu3iz4s0KfiojNv2hDOrv/z7FobKrvodjm/nHbQPu+E8Nw8Brg4t1iHRKpzO8v/Ffko1uYz2wWoLByv9aoaagdvpzMtwS/JPXcrFtrnkY+Q0Hk3nWSqL8JwFJKom78EH8xneq2YsVt169DOuvRdo698jCy/efS3EhTUdvFhKE/er7dYvR3ypp28NL6VU25lw6bMKQAncABTgyg2rUSjKjCcegoq1+VtE8SEHpPw9VqARVsw/m19f/1lV33QYrt3TBGwAh2Oq/Pv4hB11TvOZ79eLv5xsskS8inICZZizI/iCBxCYv5AMMMidQkAFQQ0z5jv8N5VMB5BO8u3Ej/OH8s1rpBcob76mO2V+bh3eRP5WOOx891XP0850sf6rd7yZJc3NCu7guRPGZJFVOiVOnHYx9ND5OslEyJUptvPjoYYq+6Mwi/+gyW6sQkTyrtJd20GA9ida2sLDzFktQm+MFDroEHwKs2P9vAq5xIcH4k2OgBV3PWao983pM3fq1/JT2mfpSsMlw==
+ properties :
+  width : 480
+  height : 300
+ style : {}
+ controls :
+  -
+    name : IW_GraficoFacturacionAnual
+    identifier : 0x29a6ec5f02e16a91
+    internal_properties : HgAAAB4AAADHLQH8R/xB3ED3RFJHEw3yBgLA3MSmttugpZUs8Rq9oW/oSuIRzA4B91U7f0Ie6szI/kG0Q7nFb4pFg9R7cj07W2//GjX079yZovdEq4Oq3h/N3Kgh40HXVROBeu0QAAWfnC0T+Y6SYnH5IvT5cO+4+SASXHEhWwhEmiTz/Bo9dHoybC7lVS4ruCvU5sfNiid+kntlvr8vYBR5/fbaNICHwZCJR2cEOJWx/4l4Rs8uPZy+xljSP52Bjh6LfgK1hgaQWRQ8X6A+gzjgjVaLGvyA0wKVzSCQixINGWdcPp3DhnzrLI/h/ofbX3ipnJMvN6c+QZQxngSoQzhm9VF4zxxpNdKUS2Az/HOXDzIuZ4pT4WQGdK0IiVNVluGBrBOPW4GzTNcRs/OvJ9AbWX8c8AaiJfb+/N0gtDPXxjaKyGZFR2MGzVrdxOhA+gWzvEIyukHMxcz28Js=
+    properties :
+     width : 480
+     height : 300
+     tab_order : 0
+    style : {}
+    controls :
+     -
+       name : CHART_FacturacionAnual
+       identifier : 0x29a6ece8035b8275
+       internal_properties : HgAAAB4AAAC/z3Ky7mAtpehsO2LbaZq5I5nTaPp5DRl/AMITJG9L6BpMNJ/eRsUpGScaEoW4laD/j8kISqbgMPZg8YUOhVjQHFa6ek1lruegotrXz4soajGlD06SagmwyTuYCQHg5hUQj3wH2YUoma6BFB9WpWTBYRInJ9C47flhQM4YAarfkr+CwcJgug6TSOmxNf/fKrGEyboWjgLTrr1d6fGqu6EiXkTvkEWO1pwEeXl16GtDwUeTg+hibQUCCcMzqMmSjCSxV25l/5vB0jHgT402+i+/QL5cmVVX858VbiE8WsqJzdRrtNP7fpdEuvBubbs1j2ul15zF7ppEkWAgze4tnJ4DjPubB6VevJv3auMvJcmGjN1CV15q6KurXOPiazP8giYkzGfIPAIcc8inFTV4hxitq17rTTKzPc5l6Es1nRhP3P7ZlXQlCqPw0AlaaBqx4n3DaWcmWisrNZBBiM6nhUvpchc5GrOVXk6z8ff/8zOGOxDCJPXuCcLLF5PPJZ85O+TD/BCDua1yp4QYOBNDvWakY6w0gnyVLFAtE8S/EqgPBx5/+f6hUzMAk0sRh42tdR9NiY3JFTnjIJfwGJN29r3v5IHEjqOxCOrEAZ76a3zBpmCtTxhprRxr5DkN+38drXr/sXHAjhx2E1EqHnCX2d6psdM3vUenPZUzMZjNJlGw09AfWxmNgI0o48Tec2WrEKoe6TX8xqT6ik7JUZJIixhfb/BhK0+zJ9CWX0Gx8whgZg94r4btdSJG5HqwuEBTx/lR/FBG6jsGwpNLuF2ggzICBpEA/XeOwKfxtnoPkQBvSrpdwj+kbvX9CD8Ijprn7EhKDcxBdZjvbiIK/563RhWs+98PK4ca+EcD7CB+UEOyAJ9xZUmpTNOGqHnrfQdhH1i9blIMkcN7Ye4uMyVd6FU2fpuN0aPr6NZzbKeP3VcgsKt+8WiY8CEpu0Qq/jwPuXHwSuQHPrn+TRVwa6Eb8dr5+sVAcg0VIIDJUXLyn6reChE796tfOxGwfZWWQjP4v3UHVbIVrnH5aRzfnCvh2qXiAeveToApKvBuJRyve3P/tciqjKk0fdGZ52wnaL7Kquao1RhioxRU6FLUMHI5KsohRa02GWA/g8E/KDPORboLZcp7QvUvYOW7ZToxHktZteJhxG+74X7hxxg4oPkq8WTy4e6Qzvcg01BBs80fcjxmYZCWLeiwBqwJ2slnEB/zGaI6CXScN6k16GVQAUQtmjfZIS9p85PIQFTXTVpMRGRwaoFEVvvBFQUj7dpm9n8ChEUpl6h/r6Y/O9XODjxyuAdNXXm67FHLJnVLil9S5+Y6YFh7UVvWpe8hNKSP3jgK7Uv/IoArGnvvJApryi7KrvXjuwl9RLn/vOM+jhuHULCidXA0t8xnmInd6Uq5XuNRxRwttz7omUTzEnr/DuhASVHf0v83NfNMY/lXhxY5U5iMYqS1oxWj0zsplsV0ZtHtZgzJ/V40M8wQ8NhlaSUHG7nzSfUJSuNQBmh1HdqPsdK6DiSxjac/Wg==
+       properties :
+        width : 480
+        height : 300
+        anchor : 10
+        tab_stop : 0
+        accelerator_key : 65535
+       style : {}
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MyWindow()
+      -
+        code : |1+
+         
+         
+        type : 14
+      -
+        code : |1+
+         
+         
+        type : 234
+      -
+        code : |1+
+         
+         
+        type : 43
+      -
+        code : |1+
+         
+         
+        type : 42
+      -
+        code : |1+
+         
+         
+        type : 2
+      -
+        code : |1+
+         
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x29a6ec5402d53cf9
+  internal_properties : HgAAAB4AAAAyZPXhTiJoeVDZelCKS2cOykBZJd+V0vcT1LH4zwAHnLjd0nSsJv9mG5v6BiS7z/c/AhobAUGPre/b09bF8gZlflJuq9ykl9rg9kwiOUxr1oG7t0ecsEJRg8/G/wjTxMHrvrvgekM9ouqNRkB3dY+njGEuZZ1JIwqMaLvOVdP2XCAFsoBpwitPmoguJ6J3A6w+UZQECavMIvGZ54j4UnTgqxlVKafhoTjClfpIiQCOLZPwF04ZaZ45w9jcU5venQ/pfb+NqmKGPKaLK0JuejbZho6YWzHWvrBa
+  properties : {}
+  style : {}
+  options : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : HgAAAB4AAADXPUOq6bQdTI/fs1mC0I6nimWl2G84EsAbne5i32IM05uoRA==
+  original_name : IW_SinNombre1
+resources :
+ string_res :
+  identifier : 0x19a6ec5400263cf9
+  internal_properties : HgAAAB4AAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
