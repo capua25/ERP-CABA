@@ -24,7 +24,7 @@ window :
     internal_properties : HgAAAB4AAAAV3Ymq5XLybBdx7XyVhnqvm8/DYN752TtP8wTJq2ZvizOTZQga+9DBvRvVTcf2/fsDuLOrqt+5PNnpRCWA++9h+C7Ls1Ega008mvf9RdlWJcuYZGK2yRJWo6shUgQy98oIubFflkB/PQlqvjst7i/O10mvI6B7t8UMmS5Npex4n7LMtXOXrcT8bsMip29OzRGo/F9lJf1aRUE4VYAlrZDL7bsjeBB22ic/85wDhO+WNooeVsYUo/2R7epk2BibzV9F8bCRYDKo2bmXZyVBHf++ZKw+/DEU03f0Jdmda3XPXf+SsRq/XRb2HBuQOVwsBs69Tm/qsA1WslVSt41x9I5rT7QB3XqPy3H2y57Z5hdDJ1LxnVt7Un3sj/F6e8aBqn+hA4wVeYM5YD2BlBMDfZ8Kt3gwUkrkIlGdfHnq0W/40vLO56OBGDx63IPbHeq8UyIf+HPUC9cK733hJdmkNaWAkCQlEpj7yb2Zduahw02o8n4qiLel0zXQ2bbdph60EtIvo/KTNPWr5qQlHp1bMxhEJnS3X3t6KKhSuU7nOEUUHbVRS0Qdd3VzDpfUd1dCLeLcP1d/ABrTQ2KuW6QZxrEjOk0FhUx1sakBSewvpVi2uqIHEsAR16BSkGitmwsAi+/7bPARbh0p3N/VYRSEnuHeN9G5Npl7lWeaJv1MyMmyCvgVhLYeg2xnA1N9tIlsZRjPpq85z9Hzu2MXHEpR063aVIhKZYXQP89HD1flkWuF/EzDodS58GZy8h8RSC3kOxatDLFmvM6d0071/sSksCjixEt+0Off9SyB/eYqWgX/HEMDvCH9ifQfQH9sL3zJxdp3lfGwbsL3WLjkoxMNMYoIpkSSwOJ4HOhzyCXkjCY4X7U8kuFrlFPbSbrWZjw9ph02Pk471Jue6gl6syZT0i37z3C5yDsqPsPiQHw8yHGSyzEvW8AhlqNGlVwu4f1O9DZ/WWduEfR5OuK9+QusohKLg8yeCDWr4epg3jGms4zH3fZrZZpjfNVoNBULytVuUIutFBQ=
     properties :
      x : 24
-     y : 24
+     y : 9
      width : 382
      height : 174
      tab_stop : 0
@@ -37,12 +37,12 @@ window :
   -
     name : EDT_Usuario
     identifier : 0x29a758a2038c4dc8
-    internal_properties : HgAAAB4AAADPGWIm7XFs823SHq/b/OSWEXmk2EvdHc3klytfVMzYRuMSBuWkY7h/E8M/sfy11HO8cfGxgOE/mI3Jqrpywjf+D7mOmhzZVaCvTc8Hael0LlQcADf16yvfw71XO4ANztIeXpt6Wje2jN5kj/1x84OM5KODYkQHweDQSEX/tPcGAMlDJTFcAtNLZ0oS8AT7VWBChlOKDsScTvq5vnxf6TsTOBtaXlcZhyy4o2K2fmEqAPjp+IDEgWxDaQIAZpLOwZYtVACuU0TkhzLzla0tYhFphpYXeKL1873WgkVXGnChzgfAyhy3vZd/IXrCs83XmQOsrJDGdZNHG+HFQZ/L0LiIVp8G0/rd+Qq+CkgsiAwTVtUoy+XJ3mkjV9x2Z2IyYUZGmGTnonwBv9Fe6j/qYuKTUQAIq7XHUhWEqRRv24w4p8Royfg5osyddcLHwxLv/QOjJcELxObggzjPolQ2kK7F8sp1xmwaCv1n2mKa3JAPyUqriE6PwX89l7m/osAYONGmV8DW+vzqOySX7JBesiROFO50aeFdfzOY181ErN7F3eksu0Ug8yKlT/z7choXahnMRWvpNFwG2Wxc2eBA7tvTwOjiQiF6AYtGc9Ocn1kfUBhIJ4sCo/SldXJ/2EjOCl2Td+fioWspMTzWaB+tnuGHgqTQfegCvdqwBmgxh1bo2+gS/OTvZFW/Id9gDwBGcUvpo+izTw/Qh5O7qXox4yqF/Kiw4iwF+WAzcNm17foej7QGujM86rxWVgTuxz8wSgvfQJBSrmgCFfQweIHsjCiOsbKjhtb7yQJKFNV6pxlocjfuK9+97y6ZmfpycEGef/mSvGpVrHs144L/E1wf0bgRwysFMJ6ETjBVPsIaSgVMiBshvp47V19sFtjdhoSHlZddAQaNxA1Ob00MgGgFhsGJd6SzH+dxAbFIC1GeE0YwjoQB2Qi5z4t7GeA69h/cdy1/ArUfiwq96M9NdYqFfvdQQQgWEuVQYZ/IShZR/sA/YyadDnV3zEG8gRnsKkrRhJ7gyvgdkoq9L6dgbdt0TuNAqlkoRmwiC1+Z4/BOO7r4BeljQRo9hNUmPszOIWRukpF6lkrABrEN+phk6P7uDPlxbqPJD9SS0hcYSiRoLXvFA5+w1gbp8yBqjHzhIBXLldhqhZRVTnxsQ5zeLPBMkWFsuiN9OAE2RbIvRhSRulDj4Gz9xNzI8wjMDUQO2SUvTHeKMd++nbEcy0+LU3DErmKmwGNVx8uJUoYWGim//GH69+DfRYl64Wj2uzx47i8OSQuQzO+pNp5sV8YmKRSLO9XON0hOKQjaZP8mMulaF/Q1ujbw8S6TKV/v117LXaFngn5gozt/zLuJUNuxugPvHf57NBzRHcnIFFm8ctBR1+Jy/R899zKQtJPUn2eGd1PeDqJwqrH8HtOREVxLgcOIHfwAYiv+/I8oO09JEDAjUugpFuZ2mD06KRnWpQCa1hegSk8nk5Hq/E4hwoFDwYCxjcg8LjMkm0Ax/DQ/svdhRmiNa469wRETABy8klaDdbol/78pgbbvyuBxAwUyxrxfmo7T+AeNXPpVyBfHj+mohHaoQ2SHXNMwHttqyCEXY66tlbBrOdETm08lG3jyqIZhc7ua8e0yTNHuRATHJsslumsq+PjZBDPxfFfeYe4mVY3BgyduK65y/6FzWWlAxSueX1iy2N12DhQ2YLBS0g0a8x/KYX7ultA/OiInXoY4l83TynlE92uD886cpgNGUmgyLIA2ZXzAJGCysrPvHBMIplKnKWCS9cczu4f5+aVgWPltBtOo/g46l7gISPcdvAe6dmMAgbTa3qv7AY9els25U9W+1LQm+DJ9qrThRmr4WimsHZAT/L8W+DhEAGyI6y9nDwLAPhzmOKsEQ/+SVM+6UXe2w6kkZ6FwGzfVLGIAJ3JG06yrlYoEdY7vNy50/KK1RF+hX+As
+    internal_properties : HgAAAB4AAABXvxUhcE8By4SfpTbavBBF907LI+DIg9gGvNOIpqCsb1X/u9w2jZuDvL5/j2EiCBkpD2IEus3nd4+aW2KKYUHE0mb6PZkk/oLaHtXqAXbHV6SiCe1gN8rPm0MbEfo7x/x80sNzVVwQtBCYEzzPrOuyiXRIGGwP391eO6LYYfrWNQYf+qtahqylsOIRv21H7+S3qpi68cLZaHuLWhi8y2ZIfu24UXmn4wtlj9DJ0gKGOM2GE0CS3OnzQW2aWy1bQTHLIqyhPNNfqjjUqefGtHIpOu0Z6tW76nJg7IvDa08kZD9BzGlZr/XJKwGTkzb28EPKSc72Rpeq8Gv7bV8Z4NtbddWuQEPNiFgzyOfW/z/jbaM1XdKRqtrPJqg+C7q+zGP5eIGQqg7aM4KkRgcYWPe8Kar4jXPGdB/C8nn8C0qTXtp0EOfc8zP83AP3gruRMUWzAMRyzcGB7ST9TdWS/zI+QX4tmJew423iE2h5elBe2Zp5/oRWOVsTwIzvssmfvf1BTX0mj5W6JlNl2/+bY8Jd0ER9IK6CCCGbeMOdzJrjkVIL3JCCuSoBuiNfbKy8XhZLmy49/tSRV8WP77WNkbP9ReOSY8Ung4A+luSFnQxHCwGiwEx597J+VkSj/y9sWBiq0VY9Z0oflwGYJ0+cS16FeiwW7g6MhkHtrQyMSkzMrsLl/cb1w/ABLSjcXcC+THRZWfb437Qvy9rD4jUrT7FpBHCgaZvyGXZOewMAqIV0Z1V2ZaP0XnrqVu/V2kM29vIqQxvdNnAApWmY7DPlZhw0X9Rdn5fCsUhmzCuPszR8oA4R1z8wWe+HpyLYr+YzYfdS/ITuOVk5F7rlTGb+F+FDo7zqjeJ8m1KNZcXe1Diut4gmPBa6U3NcztiH4Psu1ho3miiVWx2++gikoxbV9O2t8HIHtVrdB25bpoi6Bzw92L9eUf2vKap/ri+Ozr9mB89a4a+QmBz9SLeip+Bu3pO76MCF94BfmPXe1DDwD3xCWc4ooUEyeCKX/SXsEQ7DiwZm6OCnkkXjFZ9niebgs0r+rsMIwUIjioeK+J6hQBjFvrc05gDg40w00Y0wWutkiGsH49ZCJybNurgvis6z4+OkpFwsnODC3ALqAsjYNR0IPNLJBNW75Bqf1/TBWzXMypIznUNYRgUQ7g+J/zhQn/l6zawtqisAGI58hSN0fwfaHTZkeKNQDrE+n5YHJswiQsCTJhtD2boF5MooOfHYSIPv7x9u3ftt1+MAfD5JVpn3Uzjradgtlv6KQrlWnO7RADmVby3dWG0WF3czRMHGqhR8ep2/T+kVPdpOvp4sr79PqLEv5SUTxixH29jfRUnyiwMGdxsyF+KPhxl8G9WtToAg4n+fvnH70965/A8/dgdOQNFRTLAckS/0hT/nhYpyOxKGcbvx5JN4YZr0coK4muiesXDsG1gb5bVDU/xAj5ifOaK31ad9EnToadHO1E5DGYkugxWyv5MQ1Q2LX5U6omgp489ZEz94fg6q16Q+BWTkhcG+K+1YxqgaqFvzZ+imkZOH2UpTEEfiTD76e9csRYkwEjvItbe3cEUSzGI2X7VsPjnQMd/WbOyOxX6SXQFjeWv4kAB8wgW7CdoLkrFFjT8a1N1qqTdOpONcJiaONY+WrE3UIMPv0Pc85tPpUbKYFCXtHBGVPMSFxKOULydYk/tVOftQFy+IiYSfzosgf+OVGpZA7SWqvCsdRMaj1Ty4NrMKNiwBIIjJLit+OXawDMuHkWZtfFn8ZbzRDd8o8Kzao30JXE7ADeNNRcPa5JcOMXjh2VHe6OG0knpwdtO8q3L1rpaMx7b8kBa5oeCSeBC41xYLOBp4uDfl4SVQtcVlZnbhtCIz/kXDoS9sekTOUgGMYXBLQsvkRTIvQGwivwVaOgD5AAj/rpL2WrUiYt8FIRIBd/idm3B+8qoNVHUesTlPMkACjKAr
     properties :
      x : 24
-     y : 229
+     y : 197
      width : 382
-     height : 32
+     height : 55
      accelerator_key : 65535
      tab_order : 0
     style : {}
@@ -65,15 +65,19 @@ window :
       -
         type : 339
         enabled : false
+      -
+        code : |1-
+         STC_ErrorMsg..Visible	= Faux
+        type : 17
   -
     name : EDT_Contraseña
     identifier : 0x29a758b50392985e
-    internal_properties : HgAAAB4AAAAofs9EMNyBaCPunSxCMPyGu2tkodBMCpB+Mxh4Nn2yaUj1KvXZXE0zIdRYCNnDv5sZtICZrpnD7YRVabjF7D/FuigeDkG6jjoVa/jlcx8PeF7vqHs3WaI+9IaETO/4Q0sqOqUNYAWHxEIsu1cPN2f0de38cnZ6kp6N54SDIBUMTm9rzRvCxl8I7qJCqbDIptlII5eOjNguqj5yoBMxDkUCaceiO7hAO7ID/q5J4Bq7YXSVt6lJ5J2FOAcgENNsmKVgefCCYwVpvq5KAoOyC3t9zQHWD1wiavcTGOCCS9q51dUT0FrRgTi7NoKQ9kLMogUibgzQnu2uwjAx0xOyLsmDYFnr77FPnrFTDYGXqS5y+vkjqkgFNYGZp9ew2isUXq25CP4U4m+9MfxA2RRvyD71Zf1ESUj+BeROYc/tMsjfhzPoK7v+cgwep+5BFHZdgsVrHLnBbRISVXHvwe7IHCrGWFDXT9p4DIqgBTMe+F6jIjKq+oxSxIZ8MR5PO9hFFQzr3zscN80USErggS6/QF80xJIv5iv4OM+dfQ/4xffe91DoNnkiLjyBx+BQyodSbxpYCP+XZllpY6HVjCS+AgGMl8PgHLaPKCRRa+eERvlGPEfzS303V77AJTJZxjSUbZYDydfY0TSeE3+UKdUxPDvcxmbCZW0VoHmyg+Vs3ihiO/w5XrsPI8cyx2sQa1nI7wUQLBFxuUf/fmSKaNzmLArbf/AHcOxBbvEBvfGWS2invhZ+nnXSGIlhmmRR1sDya7glS5tKichyHBEC7DBM8xGGvi7e+VxWJMfvjL5n7/I7pZCah+QXeOTMo2W9YgiAjG5K5K3KE36PncrS3zcbfSFQpcdmLiXb+6cS5NII/gJ9ekW6xOwWBsBp8MXwwG5by8HnzmtkcgWrK5aP59AIybDBAaztKftasKJyQ1rJ1w548QUIlFqcX7nIo8NyaEb1Z7AoYRuwnFX5a4I69pT5LHusFSYV4CZ9C0dKhAxUTnDAfC6s3KcsF519nAyHl26r0vxh0TSTSdXO98nIzW6YKs9g6n1cFb17NbkbeMZRLKT7cDkFrJV2CcOWc7G5jpt5RssH8bfwdjV5VoTKvo8CJzm92ogBvHe3KoRAFUSLPwUVGVldxrVrRl8EMsLLHLwvd4Azs+E+4siARCOjLyMQacNy61tRtBR50H5RaAzY66hCv4aMjIQCTz+5hffQBmDi9W2BCB69UxVx7IaB25+k1qRnNCzWQmlunY4PwY7tHPuVsOZoIQQQp0qX53/AHnAzbyHQ/63p4kQIMQpzs6NHgjU+1z5pSOtu5dh/MkDb+aibfkvLeAkiQL/pIWnF5eWW9AqM+/Mt+XgUH3AU3AaoBKEs7hg3RPwq+ThodOGkzkiMK5Q4vXD4bYRONwATMeH9qcErXoUgTtIgI+MuK5cnqWiX9xPMy2im+huofIJkvC8QO/bfFL8LWYSl9EIURItA/zjz/0xZTC7PlCkj0bvrFxPdz332VeVsvJTp/b0dck+16snmCqCxBhbrp+EbtFYS9aNEXvPocbnfa4tTHtRDkMqLkQ8CyrUQ8AJmj3f1pDAZ1M59FD0LKOHGnvgOirDuNwzrVXd0bZpCpGMIsXh+JoLgsOh/Fi92pfAXOa5kIfSpbRWT1ebTqIdOiZp/w/FFvjEs3NWDot8u0NB4ajDpqF6HJmrW/kiruSzHv2kH3CR7/Et8gdsjEwGh/RsJlg21iE8zk3Lt3yZQ5PR0zIhqVX3hxtCXIe1KeE6q96NHjXAfghNnsEHaR7KH4E9UBmOhVrsfqMj/THCx8nBTlbmRqKb45i5oaNSvpBi0HPWA5XdcutUOmUTTn8YnVHMUVGyq7hmqpk6PDyC+1Sud1yp+sqyAZg0An0dxPXRx2CokYyGNhEGT38v4lgAC7r7xdGSFyEhReyzq+zlgx3TMLWO9wFTY+mkW9ENKGWUIhIczpw==
+    internal_properties : HgAAAB4AAAC3E/wtZVBfXiU5gtEf6bEFDvGjSG6tog/qBoKdG9Jz94tPHVVJTd87WvYYpHRNXmL/YG8hfCLL2uR8uD9/aRJajdTJGtQxcQPJdFZC3Pqfzp6fp6ac+hsAV5F1glSTPUa4Yljg1VcAu0+4cvoFAl8UoeczutTfq4fZdZJ502vJjTLYmEgw1KYqWz+s+vA/3LsHF6y5OhHJD8UUKCP22TJPvoX5jDP2iyYp3mbTS/VeFXcqMmJ0FmNfnhSQvtx89IYkMJjyOb4b6JbkceJs72pdO69eXLfOBqNgkD662ZJZI0Q07Blbj/EBLboOGvHJBlI8jPCOrypozogXge9lRLW8hH5B5/lLO3qDMCA48v7vPcb8xMysdMYnGBOc3mlTD8fcFhLa67pIYvJ2F/gKNFvQicGfa0UW0kAO981fpjv70tL0mgvaPFlVw39fTFjjJ3KiNZ6XNITWDVsU8u4jOEXBPJyq0X7l7Daox8X4Fy0DblCRirlA7Mg4yRmgf9u3qiL6oHr0L4+kM8baSdwiS35o0dxaIJ0M2D8GwPkS1jD3/cWpcw0yjJniOmFeYaxcSCSv+GCW37dCzgCYzXLqYKn6CgaM86/Jxz5FqIzGHnXKSGCD2NhkU475lzcBWEclWirEwgLfcUtYsVptL/6eYxxaIespSYOze8Ow8Io+B0p5QUntm+fl+e4PJSsNx9pQIOdBGyvPP+xuZtzT3Jto2L1RWMwAuq8yYIUoB3vLo7k4j7HDVrpvK0lpn++t3p+Oe+/1p6NIMCEPeUBhu+beb4SNLs3qRq7qfHVZOGIRfv6EnQf7ZLW8b05QtxWp1XhxwCgWUk+QoBRenZ8U4FTlD9CyNyjrgHCI/hSnOkvlsvvC2p8EUBc8HGOEN5UIy5Bh3810Lzn9e8g1CdcuCO4/CK1v+AsC9Ocz6xBs1oRQhjnfGEj4SpDsD9KSFbIZGLy7JbC7qz/DGSPMo8cHrL1yd9qXz3RoqP0vtID/3/xaZwdKQKc5QYLETFC1hRWsWMwiO7/79APUhc51Efv2uKjpYrmRAX8bDpVcjrUubva+QDl42pZB/MDPFEDU20+7fUZXhWSmXxkz9F2BxltJyDgjO7RMSy14OWlFx/Gm+nO+gJJZD+UZHHG8xz60k39VVTlrzaG9AtY/VBw0VXDFA9p2W7euNp/3rKdCj3Ehfilo7mcoGA7L2GZk1alWveDuAaSX7jP1I8J1gVd4tSjGVjJIP3QJ16z8ZM+I0CQSd7X1Ij4h2Gd8d73lAiO3AHKuvd9xcDDCCiXTmBS/d6G1oueJCwDstGHR/Ir4A/UpHRKuZaGABDqYn+zZov53JrKKDlxkQ4CqvgcGpbQAT1+iv3jO+rjPDnhiBZrfRhYU0rcCDkI5fvug9L/XiWClp6niDlOvFZt5VvFKJwkJrMo/oHRzaKx5p7kXHDlNaRKWHMr3JrOKVRio57aubpf2g4lNGjSTiWUoTa9K4RWsfQ8SofL5ST0t1G35+U5fpsSd5Cg/bBmg7k4gN+Ei6x4X/mSc0ySs7z2yaQ+x+7S85lYINxE0BPFe9xhxTqvVi0VjF2Ea9sKvOGviq5YxVZn8QYvOe8Aw9N2aE5jGFoWbV+HSu595MDLBh0eDnwuzl0WZnq46A59hydpAvPRCR1/KxjO8jV3wT++HwYUF+mW3O6huFNj3VvnN+q5Mw6pC1aqVEWudPtcQDl6FTrXgpT4MDb+HJzoQ4xi5sWle6IF3Zbo10ZvX4RdYIfzowH6lbY+aI9WwZkko3djlsy6Y0VAtBVA2LIse+7U+MXZau37iUzX4/3P1iXwo48eYP1ShybN9h18rJkOEmNVqRUXg+Ym11CBXXzSs03yVkehlZzY5QDbQR1EbmSZGy6Ua934tImTghWuAZiVvEqhBxHqmM7+Famo7mhA4xfJ8Y0pveLrXicW43SRmXM6kU2XthzFqCV629FwHzhfoUp+3X0jR3pNVfw==
     properties :
      x : 24
-     y : 274
+     y : 258
      width : 382
-     height : 32
+     height : 55
      accelerator_key : 65535
      tab_order : 1
     style : {}
@@ -96,15 +100,19 @@ window :
       -
         type : 339
         enabled : false
+      -
+        code : |1-
+         STC_ErrorMsg..Visible	= Faux
+        type : 17
   -
     name : BTN_Ingresar
     identifier : 0x29a758d603ee1a31
-    internal_properties : HgAAAB4AAABOXtvkBoNPUtvQr3TKaMGfdMeEfDZwalAQTcHNJCmucH32Hkb30E1NGXEqBzJyDCL46fbVVBmRhLRgUEvmnul5RSz0JPZsZj2kXn6HIB+5ls0kzMDpEO8XfBZUtZiN2UExGmiRP5KF4gqWAG+rmxP2j9oBnYrFybmW8N6Hd59sQzZNmel5a4PKog8XtHudZM3Z50vMYd9VIgfUtF+t9VynCWMJuD8SnDValxQVvTWWrC2p7FeI388Y4n6I9z+upVaT+ZrB5qOyWYKMjjUdWFYtYr7H6X0P7n0qubQdwV46ea8cpamLxEInSplJ/ly3atXBD8+BsKONa4C++yUY002VbwQvEw7V2WV5ppmE83Nb0mGeqggRUET4BEJX2G+njAoYgHiEqrig9KgpgprfsAUfH1I4wetiDKx1p3icDyUAxuOhD5m3dME2hAR8y9rkGxp6IAXK+ORyaTUNNMUTZFDGZtEtOfwL1DYeKU3KzjvEJQcf5Uy1jo5rzCeD/epCAW6TVO01qcpdVJT2Lqhn6AHFL1JCW5mEYSkgiKNLaF2IA/j15X6nBTKbSC9mP8zMPiyQx9in4lbEz3kC3HX/zyFTpEgKQC6iXkCf27WBfyJDrktW3Nh4s1S4lj5Xz5tt+DKvgPrZPnWHAP8uLaxoXjRcDBJErHzItQFX74aUEH//I1o1N7VBPwCidnnWY3ttcnsCzaZ2MqaqlaxGDHXJmNOp+Sh1EiouB89AJn159E6N5ndoq7ujHp/WgRVICDdiWRNgAG4f8vSlLZkrRbAHYeyMYEtrMb+3HB8NLS5vi7R/BFvZJs9gbJOceAdyShgpQ4fkvCwFDLYgpfIgt1Fx8AmmPZL0vAF12AcF6N0cjPBUnid1zyvoJK/p1IpURiW6vF3uFvX1UQo=
+    internal_properties : HgAAAB4AAADZwhpijtsdeRD0Gm/P8V7uSjI1WyxnAf+lXWH6z5fu+C+JxWEEPhSWUy/1fbhZx+/40K4I2XlQkFjGFIe3C9wmBGihklekImQTHMJHtBBNDAsr1fj8XGC45zhEg1ypZTgbeZ1di/D5uhwedScVIogg+Vw8UdBv0KmP04FqtLd1dcqukCnu74XSqAQigGpJ139q32IEVoJ80gmYoTP+EDhowgOAoMNYi0+1AI2V7Oxr53ejsJFWpB426PL+mcF0+02bEKxovcnPtSqcuGUAlLOTogDx4TEPIEFeCGG/eh7F8Qav9B7aVfiKJtgZBKQo7RIprx5kX+31IpSdXrUM9pvOcSKenS/wtVLjGygG5DuuvKVeGcgglmyhuV9DzbSAEwEAB6/cfGpXHDsi7AvXfwu7FdDSxipTf+XWa5pVC9JWLQYMBKevM1vnhyaoyTlDS6Gi5hquZcpC/YFgaToPaVcjZNQwcDKE2QnCWExMjrq7Nhw4JgtXjoLalN52OUw/HMdmMzzWUyc+0wwZd+nqypTFTOusOeYZImxgz/cr1DG3t9JssmNvjRcZkcXKDlPmUyvNWsU729VssTXD7VZzVTCLpa+wWo5WdhwVeIFuF/iVbEl/j9bFrzYQC/iKmibi7KgdgyCtSTPqwFRmhlEc61SeVniF0fWeQgA36oHNLSNVNYrGfPgYufIoU/3CLkAEGQODhzAJk8OYh2IZJLO0YzM+bmDwMvDDzhHwIUQ03HlTe7IPhIlE2O1cC0p8epGq8AohIxtqRG8uEAJPn5GP6XUYTdte9uyusD6ZJghJJX9pBUKESm+b+u1tFLifyDms2IlywFC7XU+JdjHba87oBxA87cLuf4rVDxhZu4F56Mh9ejT+op6qdaWewe8ULAd4wOteLQcljn87EPMr
     properties :
-     x : 155
-     y : 341
-     width : 120
-     height : 34
+     x : 140
+     y : 348
+     width : 150
+     height : 36
      accelerator_key : 65535
      tab_order : 2
     style : {}
@@ -114,11 +122,32 @@ window :
      p_codes :
       -
         code : |1+
-         hash is buffer = ""
          STC_ErrorMsg..Visible	= faux
+         si SansEspace(EDT_Usuario)="" alors
+         	STC_ErrorMsg			= "Ingrese un nombre de usuario válido"
+         	STC_ErrorMsg..Visible	= Vrai
+         	InvalidInputShowMessage(EDT_Usuario,"")
+         	SetFocusAndReturnToUserInput(EDT_Usuario)
+         FIN
+         SI SansEspace(EDT_Contraseña)="" ALORS
+         	STC_ErrorMsg			= "Ingrese una contraseña"
+         	STC_ErrorMsg..Visible	= Vrai
+         	InvalidInputShowMessage(EDT_Contraseña,"")
+         	SetFocusAndReturnToUserInput(EDT_Contraseña)
+         FIN
          
          //Recupera el hash del usuario desde el WebService
+         hash	is Buffer	= ""
+         JSONreq	is json
+         WSreq	is httpRequest
+         WSres	is httpResponse
          
+         JSONreq.username	= EDT_Usuario
+         
+         WSreq.ContentType	= mimeTypeJSON
+         WSreq.Content		= JSONreq
+         
+         WSres	= HTTPSend(WSreq)
          
          si HashCheckString(HA_SHA_256,EDT_Contraseña,hash) alors
          
@@ -126,6 +155,7 @@ window :
          	//Contraseña incorrecta
          	STC_ErrorMsg			= "Contraseña incorrecta"
          	STC_ErrorMsg..Visible	= vrai
+         	InvalidInputShowMessage(EDT_Contraseña,"")
          	SetFocusAndReturnToUserInput(EDT_Contraseña)
          FIN
         type : 18
@@ -138,7 +168,7 @@ window :
     internal_properties : HgAAAB4AAAASc+TFPYF/Eo/yNPf5yoFZWOTGzmhvxeTW2Y/E4W4PxSjI2FMPU+CfP7ce4AQAOLamagg2roVotlMKkwNupbVOkS9zRWmfrQHwq/XdMS56gWmmYEaKKFYOjj6tpl8XkiXs+iFuCKap6r6b/WQ4yWvDU8imxZCmw4YYkKAyr6DPWTTDCZfFmgo+Azq4K1a1S8ZeLbmb9w68mRweFCksfNk3ItJr5Eg33bWZzAJPOL0IJBM41j1HSqQmOo/egTnqPZ5SMRDYLyFM5hWOA6kXdYZ3HQhLhpxl0/kPI9pViqSb5f3aRd1Nx2Gq/YB9LeJ7RzGI7zbgRgdHDRNZd+W+Bo+lN4WwztoT7p3IQTB+fmnDEg08HcjNM+oE7edpg4/Rpkt3sDGGLljt9SpO9z2w66Ljb9/qsuGpEW44xJl/CGlPSqsrzl9yxxJXoXvGUF/qth9BMWC7MAtFD2Lgv8+xTqalbeE+77Vdv1kkow/SxVI4/0w0c0qzyMJvmLiyGpfaiVEBSi3/449Kdj8cHQ81GkJrwhlcQkdldsR0zonZdJVV0dqOuc4B7mk=
     properties :
      x : 24
-     y : 312
+     y : 319
      width : 382
      height : 20
      visible : 0
@@ -173,15 +203,17 @@ window :
       HLitRecherche(LocalParams,Param,"SERVIDOR")
       SI HTrouve(LocalParams) alors
       	IP_SERVIDOR	= LocalParams.Value
-      	
+      
       SINON
-      	si OuiNon("No se encuentra una dirección del servidor, desea ingresarla?") alors
+      	si OuiNon("No se encuentra una dirección del servidor, dicha dirección es necesaria para iniciar el sistema","Desea ingresarla?") alors
       		si Open(WIN_Configuración) alors
       			GOTO DIRECCION
       		SINON
       			Error("Debe ingresar una dirección para la conexión con el servidor")
       			Ferme()
       		FIN
+      	SINON
+      		Ferme()
       	FIN
       FIN
    -
