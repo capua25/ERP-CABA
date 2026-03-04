@@ -234,7 +234,7 @@ window :
   -
     name : TAB_Main
     identifier : 0x29a5dc1c18d5fdef
-    internal_properties : HgAAAB4AAABIoXF3owNZw8Up7K8UZwJsGPxce5oIn/WyBCBBo8TUQ8cT5Bwu1HrKPHzEUnvJMAMYBCbM7PVz48sPMD2Erk1Qg//9xMmOHTjIx1ziwy4UO5vVqqannKqHC3F7fAmyvwSoEArlYGOqQsPg523Po+fRFc4oAat28CA36/c2DIuyyIcyBF2dcMNydp+lwkqVmGwyq2PrD3P68hTXs4ariZXUjeiP9TzdcB44GcQG5ikE5h4zyr03b/N28qiNR5pU3UKVatzG3FRUIka6wCxhsTwlw3ZBTDJfw2ZO9ONaBWA8y9oH4kqFSIgxOGTcHe+32gk9X+W9FzXQxxHEIbdCOOaggb01FBvZjE9te3WTwE4vkTGbzs2Z/W1oNm7W9V5OHJBDFNhyoxbKnJ5PHC4NUKMuKRk2Tazzc3e8IgDA78U9rTXHpUFBx0nZ4bIaoyhf3b+zXGmHQA+5WTodKLA88mK0c9tnlWO3pdgdm50VCcR9Bw4L0vRrpqssiqB6UpiXKTFbJjU/pbpAnezJ1ZtyBFRmuTv+x+/6fT1slTCueV/AxC9dYYG7H0hDsUHRkexxQzSy5V3BKEtieBamQXACb42nsNFdT4AYZ7uZG2D3BFXMapVF8DY//qL390Myb1Zk0tC99LV5cXFryHr9I+HMxxw+YD3yHXYgAx09dLQJLAK3fbSMZQya30S5jSlyP1RXaODasvAkg5UyX76xLVetDdEqUZ/UyLyahAfnRD8zj68qitMQu6n/YY7Bdi4J48AzHOcBBBRbaSZZBHv7NP+SNtB2t/12c4wfX9eWWSddNNx6QJUL+DvXZl8/qy418ak0hD2gIwmFd9yvFb/ELRylnBD+FnSz0d7DXi9wcw98qrCwA2mQ1Ai1Ft2ywuXibMCXYeDVyFLqdkebGUS4ezM1KfibAM1tyerhlPoRQArBW3NVeiH26t+WhGbZGpUci0xAmy/fbUdhDLVA32Jd5GXdsa0uPrAnRmoC17pEYX36b7NntnUdDrb0SohbIsb2tfsS3qjqRz8ojRbdtSBduzd+JpiEbKKN1rcs
+    internal_properties : HgAAAB4AAABsRL6EccXuQsbohZkFMd+iNdZZP5Hwx0eWfKuBLcWcI/dLd5jR22CjKHPr2hhz4PMsaJxPfM7Jz4NF1p9M7EbzvqEIT4QgxHGe2UKlZU7KXYpX+38UKwDzfFOL+4aipT7oRCaBKc8i+tiOFLZXiXA034s9LKIwDzTnkX7/WYdJTrFn/lZemV0ZbvZYFCLwGyhxKipRPVkQ6ou8hwAOoLTztrem+kEhJ6Ec+VI23sS3D4pl/cF3gPF+47Z9wp6ADS1d5DDX3PsNw2qv+/nmqeg7RaKNmnaeImbNBOqpb4LdZmuxq5A3Z/1ArzZlHxhMu3MnEZ/I4B7eGso7dFpc/eIIMef/cAvz3aC7GedlHGeTMe9rZvy0/um6PUlixgBvKD3zNzstPsputWdoNJRocX4VZHWTK942nR7sSVYxOVgmPU9OqUltUqUzAjl4u3QOEQ974NiqQSTDtVGAfijqW/IabPtj/Uwir3ZCqCwmRQ4oFjhBvTucMOAsBiCBpKjFFjaopvymCdB9jmIn329OP8b3g325FsXhehwATvFMXhNziPP9dvjbH/vRBBodnUYU1bTpJMOB4tbl72bkdzvd0UYeRqXCKFB2IwECyydQ488UMBYXB4ABs6YLhoRqFRV9CXPDIL8q4xYBDguJG8a/PdYGyJ/th5dLuFQe/Jiqa8/ezbH1APkP7OOJIMpD4XrpkknCxOyb85zHDVGv13DXrhfwSs+3NiDdH5X98Zk6n1l8FVGZVSDHA+S/4nqavO5ov7joZOEr6QCPJmgiEkgVtqf9z3MP7ISrkzFsPWVDeufHRyGQ8Ec4LlgsCo2657QA5i2f9JdCctj5COoWip/HRFdImCLKHKduGRGxpuoYuIantM1KwLNcHVLsg52yMhEOUJEj/hxgllVi4CKFckIGPxzHLaaS3qClW6SJbm4j6OfqOsYbPt+qufOmo04cDE6dMIAkA88=
     properties :
      x : 255
      y : 66
@@ -290,9 +290,9 @@ window :
    -
      code : |1-
       PROCEDURE MyWindow()
-      si pas Open(WIN_Login) alors
-      	Ferme()
-      FIN
+      //si pas Open(WIN_Login) alors
+      //	Ferme()
+      //FIN
       
       MyWindow..Title = "Metalúrgica CABA - Gestión"
    -
@@ -341,13 +341,13 @@ window :
       
       Procédure OpenOrEnablePane(sWindowName is string<window name>, sCaption,  *)
       
-      sAlias is string=sWindowName+sCaption
+      sAlias			is string	= sWindowName+sCaption
       
       // CTRL key down
-      bEnabled is boolean=not KeyPressed(kpControl)
+      bEnabled		is boolean	= not KeyPressed(kpControl)
       
       // current pane
-      sCurrentAlias is string=TAB_Main
+      sCurrentAlias	is string	= TAB_Main
       
       // disables the display
       MyWindow..DisplayEnabled=False
@@ -356,20 +356,20 @@ window :
       if TabStatus(TAB_Main,sAlias)=paneNotFound then
       	// open a new pane
       	NewTab is Control <- TabOpen(TAB_Main,sCaption,sWindowName,MyParameters[3 to])
-      	NewTab..Alias=sAlias
+      	NewTab..Alias	= sAlias
       
       	// otherwise, enable the tab
       else if bEnabled
-      	TAB_Main=sAlias
+      	TAB_Main	= sAlias
       end
       
       // if the pane must not be enabled (CTRL key down)
       if not bEnabled then
-      	TAB_Main=sCurrentAlias
+      	TAB_Main	= sCurrentAlias
       end
       
       // enables the display
-      MyWindow..DisplayEnabled=True
+      MyWindow..DisplayEnabled	= True
      type : 458752
   procedure_templates : []
   property_templates : []

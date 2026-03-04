@@ -116,13 +116,15 @@ window :
         code : |1+
          hash is buffer = ""
          STC_ErrorMsg..Visible	= faux
+         
          //Recupera el hash del usuario desde el WebService
+         
          
          si HashCheckString(HA_SHA_256,EDT_Contraseña,hash) alors
          
          sinon
          	//Contraseña incorrecta
-         	STC_ErrorMsg	= "Contraseña incorrecta"
+         	STC_ErrorMsg			= "Contraseña incorrecta"
          	STC_ErrorMsg..Visible	= vrai
          	SetFocusAndReturnToUserInput(EDT_Contraseña)
          FIN
@@ -170,6 +172,7 @@ window :
       DIRECCION:
       HLitRecherche(LocalParams,Param,"SERVIDOR")
       SI HTrouve(LocalParams) alors
+      	IP_SERVIDOR	= LocalParams.Value
       	
       SINON
       	si OuiNon("No se encuentra una dirección del servidor, desea ingresarla?") alors
