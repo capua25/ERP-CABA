@@ -290,6 +290,10 @@ window :
    -
      code : |1-
       PROCEDURE MyWindow()
+      si pas Open(WIN_Login) alors
+      	Ferme()
+      FIN
+      
       MyWindow..Title = "Metalúrgica CABA - Gestión"
    -
      code : |1-

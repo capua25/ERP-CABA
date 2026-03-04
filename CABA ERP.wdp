@@ -111,6 +111,15 @@ project :
   type_code : 0
   p_codes :
    -
+     code : |1-
+      GLOBAL
+      	IP_SERVIDOR is string	= ""
+      
+      	CONSTANT
+      		
+      	END
+     type : 196608
+   -
      type : 196627
      enabled : false
  code_parameters :
