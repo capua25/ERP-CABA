@@ -44,7 +44,7 @@ window :
      width : 382
      height : 55
      accelerator_key : 65535
-     tab_order : 0
+     tab_order : 1
     style : {}
     type : 2
     code_elements :
@@ -79,7 +79,7 @@ window :
      width : 382
      height : 55
      accelerator_key : 65535
-     tab_order : 1
+     tab_order : 2
     style : {}
     type : 2
     code_elements :
@@ -110,18 +110,18 @@ window :
     internal_properties : HgAAAB4AAADZwhpijtsdeRD0Gm/P8V7uSjI1WyxnAf+lXWH6z5fu+C+JxWEEPhSWUy/1fbhZx+/40K4I2XlQkFjGFIe3C9wmBGihklekImQTHMJHtBBNDAsr1fj8XGC45zhEg1ypZTgbeZ1di/D5uhwedScVIogg+Vw8UdBv0KmP04FqtLd1dcqukCnu74XSqAQigGpJ139q32IEVoJ80gmYoTP+EDhowgOAoMNYi0+1AI2V7Oxr53ejsJFWpB426PL+mcF0+02bEKxovcnPtSqcuGUAlLOTogDx4TEPIEFeCGG/eh7F8Qav9B7aVfiKJtgZBKQo7RIprx5kX+31IpSdXrUM9pvOcSKenS/wtVLjGygG5DuuvKVeGcgglmyhuV9DzbSAEwEAB6/cfGpXHDsi7AvXfwu7FdDSxipTf+XWa5pVC9JWLQYMBKevM1vnhyaoyTlDS6Gi5hquZcpC/YFgaToPaVcjZNQwcDKE2QnCWExMjrq7Nhw4JgtXjoLalN52OUw/HMdmMzzWUyc+0wwZd+nqypTFTOusOeYZImxgz/cr1DG3t9JssmNvjRcZkcXKDlPmUyvNWsU729VssTXD7VZzVTCLpa+wWo5WdhwVeIFuF/iVbEl/j9bFrzYQC/iKmibi7KgdgyCtSTPqwFRmhlEc61SeVniF0fWeQgA36oHNLSNVNYrGfPgYufIoU/3CLkAEGQODhzAJk8OYh2IZJLO0YzM+bmDwMvDDzhHwIUQ03HlTe7IPhIlE2O1cC0p8epGq8AohIxtqRG8uEAJPn5GP6XUYTdte9uyusD6ZJghJJX9pBUKESm+b+u1tFLifyDms2IlywFC7XU+JdjHba87oBxA87cLuf4rVDxhZu4F56Mh9ejT+op6qdaWewe8ULAd4wOteLQcljn87EPMr
     properties :
      x : 140
-     y : 348
+     y : 345
      width : 150
      height : 36
      accelerator_key : 65535
-     tab_order : 2
+     tab_order : 3
     style : {}
     type : 4
     code_elements :
      type_code : 4
      p_codes :
       -
-        code : |1+
+        code : |1-
          STC_ErrorMsg..Visible	= faux
          si SansEspace(EDT_Usuario)="" alors
          	STC_ErrorMsg			= "Ingrese un nombre de usuario válido"
@@ -136,37 +136,46 @@ window :
          	SetFocusAndReturnToUserInput(EDT_Contraseña)
          FIN
          
-         //Recupera el hash del usuario desde el WebService
-         hash	is Buffer	= ""
          JSONreq	is json
          WSreq	is httpRequest
-         WSres	is httpResponse
          
          JSONreq.username	= EDT_Usuario
+         JSONreq.pass		= EDT_Contraseña
          
+         WSreq.URL			= URL_WEBSERVICE+"login"
          WSreq.ContentType	= mimeTypeJSON
          WSreq.Content		= JSONreq
-         WSreq.Method		= httpGet
+         WSreq.Method		= httpput
          
-         WSres	= WSreq.send()
-         response is json = stringtojson(WSres.Content)
+         HourGlass(true)
+         WSres	is httpResponse	= WSreq.send()
+         HourGlass(False)
          si WSres.StatusCode<>200 alors
-         	STC_ErrorMsg			= "Error al comunicarse con el servidor"
+         	STC_ErrorMsg			= WSres.Content
          	STC_ErrorMsg..Visible	= Vrai
          	return
          FIN
          
-         si HashCheckString(HA_SHA_256,EDT_Contraseña,hash) alors
-         	//Login exitoso
-         	WSreq.Method	= httpPut
-         	JSONreq.IDUser	= response.ID
+         response is JSON = StringToJSON(WSres.Content)
+         si response.success alors
+         	ID_USUARIO	= response.IDuser
+         	MyWindow..ReturnedValue	= vrai
+         	ferme()
          sinon
-         	//Contraseña incorrecta
-         	STC_ErrorMsg			= "Contraseña incorrecta"
-         	STC_ErrorMsg..Visible	= vrai
-         	InvalidInputShowMessage(EDT_Contraseña,"")
-         	SetFocusAndReturnToUserInput(EDT_Contraseña)
-         FIN
+         	si response.erruser alors
+         		//Usuario incorrecto
+         		STC_ErrorMsg			= "Nombre de usuario incorrecto"
+         		STC_ErrorMsg..Visible	= Vrai
+         		InvalidInputShowMessage(EDT_Usuario,"")
+         		SetFocusAndReturnToUserInput(EDT_Usuario)
+         	sinon
+         		//Contraseña incorrecta
+         		STC_ErrorMsg			= "Contraseña incorrecta"
+         		STC_ErrorMsg..Visible	= Vrai
+         		InvalidInputShowMessage(EDT_Contraseña,"")
+         		SetFocusAndReturnToUserInput(EDT_Contraseña)
+         	FIN
+         fin
         type : 18
       -
         type : 161
@@ -188,6 +197,41 @@ window :
     code_elements :
      type_code : 2
      p_codes : []
+  -
+    name : BTN_Link
+    identifier : 0x29a9f11d118abb2a
+    internal_properties : HgAAAB4AAABwsaIrz4T3FQN7kGpVSuzWoERVh4qjGbwMzh+Y5sKqRnD0nrqq1cDDMYXwQZwjgmno3vaaXkkLc+Zpro4PKR8n9mf/Fh8iLdSXqWodeWFy3Gnej71pMCT9qQwycK5TEPgvI0pPQ1efZtnL8UswR8YAV4uCMxU4/vBqdcMjocIeUKDUAGMIYH2hAZ6c9UQaTRqXL4JOIBjLk/RRZxSwc4MdQVXrgwlAI5Cksu2cjN/kpQHPC/4AzFeB5t3sAaWYf7qxlPa8D6d+0bm0QWVlWGLiQrUcHCi7ku/Gg3/RLoWSM3A9MmUpHXlBarPDECqhcRxmtY+MwvM9bTafF11E7MKcrTZE8yIuIIaxn8SzVc+R3yrEs+26vrj0vAc4FujNu35f022EXwG6YuZYPcK+96KnEvTyuFne+Rf/U3CxflPytesLbI+LAU8XLJ4vutx3TqgwqzU6I1liDQnGK+3N0xeu/0PgogJMkHvW6IueiIAXXFTYJvTybGfJVhU0bbKpbXfI0eZA+epUp8lfga1/I8LrJ3DwYNNnLUozs+FW/I8+DhVh6vKB4XE8DbR+X+/rqfJLDh9vbuH2GxGAP7bGjfImeRDvkAuWrlSnBuJ9WtocGpGE/wZqZRwPH2DVf934qqKl8s3x3N96TVM1lCYISXL2akGC4W3NLYfXsivhL/U3Y9/IDnQYp/Eu9Lvh0tS7YKBVpWv6+K7+LPDfLRVCU7v+Mg05EFHnRJTS/2Sor1vpRW4bg1xTy4breG517asE802B3MkoBFiLYscqWU314aeIhmnBjVLe6+pkXph/M57unV7+jIqp+S/0KNVfp+uYQtJ6vOH/PKqcJahWKVSQPG8c3W2zCrWynhxHq1PVilRnCsvXAfQKI8L6dKOLAAx1p1+KzZasGd1D9Rt44IXccwzfKcTfeqc0jP4qh9iUOyJQOvoJwbcboJnysxmPKyT58mPyn1oxGfRvPCBRpsERyZA57/BF/mmfu9SztVG9gVO9tLx/z8MUJZ1kIXyUlm/X6aH8hDpwA9AQsqrHJk36LS2xzP2UvhCA2nRSgjl0TqqCxtezXvjG6XGS6Gy1es36FdsAJBbBRPUV5PJ8TqOspSwo079rzYXwUR1ploRH1DFAwEI9eJ3N0uMP+pvsIE42AJRorEw6hNPUWDMuK6rDpA==
+    properties :
+     x : 283
+     y : 189
+     width : 123
+     height : 24
+     cursor_id : 32649
+     accelerator_key : 65535
+     tab_order : 0
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Clickable caption that opens the browser at the specified URL
+        type : 14
+      -
+        code : |1+
+         // Run the address passed as parameter
+         ShellExecute(MySelf.Caption)
+         if ErrorOccurred then 
+         	Error(ErrorInfo())
+         end
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221
@@ -209,10 +253,9 @@ window :
       PROCEDURE MyWindow()
       mywindow..ReturnedValue	= faux
       DIRECCION:
-      HLitRecherche(LocalParams,Param,"SERVIDOR")
+      HLitRecherche(LocalParams,Param,"URL SERVIDOR",hIdentical)
       SI HTrouve(LocalParams) alors
-      	IP_SERVIDOR	= LocalParams.Value
-      
+      	URL_WEBSERVICE	= LocalParams.Value
       SINON
       	si OuiNon("No se encuentra una dirección del servidor, dicha dirección es necesaria para iniciar el sistema","Desea ingresarla?") alors
       		si Open(WIN_Configuración) alors
@@ -226,9 +269,24 @@ window :
       	FIN
       FIN
    -
-     code : |1+
+     code : |1-
+      request		is httpRequest
+      response	is httpResponse
+      request.URL		= URL_WEBSERVICE+"conn-test"
+      request.Method	= httpGet
       
-      
+      HourGlass(true)
+      response	= request.send()
+      si response.StatusCode<>204 alors
+      	Error("Error al conectar con el servidor, verifique la conexión a internet o la dirección del servidor",response.Content)
+      	si OuiNon("Desea abrir la configuración?") alors
+      		si Open(WIN_Configuración) alors
+      			RestartProgram()
+      		FIN
+      	FIN
+      	ferme()
+      FIN
+      HourGlass(false)
      type : 34
    -
      code : |1+
