@@ -113,11 +113,12 @@ project :
    -
      code : |1-
       GLOBAL
-      	IP_SERVIDOR is string	= ""
+      IP_SERVIDOR	is string		= ""
+      ID_USUARIO	IS 8-BYTE int	= 0
       
-      	CONSTANT
-      		
-      	END
+      CONSTANT
+      
+      END
      type : 196608
    -
      type : 196627

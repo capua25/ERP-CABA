@@ -146,11 +146,20 @@ window :
          
          WSreq.ContentType	= mimeTypeJSON
          WSreq.Content		= JSONreq
+         WSreq.Method		= httpGet
          
-         WSres	= HTTPSend(WSreq)
+         WSres	= WSreq.send()
+         response is json = stringtojson(WSres.Content)
+         si WSres.StatusCode<>200 alors
+         	STC_ErrorMsg			= "Error al comunicarse con el servidor"
+         	STC_ErrorMsg..Visible	= Vrai
+         	return
+         FIN
          
          si HashCheckString(HA_SHA_256,EDT_Contraseña,hash) alors
-         
+         	//Login exitoso
+         	WSreq.Method	= httpPut
+         	JSONreq.IDUser	= response.ID
          sinon
          	//Contraseña incorrecta
          	STC_ErrorMsg			= "Contraseña incorrecta"
